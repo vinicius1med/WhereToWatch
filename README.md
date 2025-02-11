@@ -17,6 +17,26 @@ Tecnologias utilizadas:
       - HTML + CSS;
       - Tailwind CSS;
       - RapidAPI.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+COMO USAR?
+
+1. Para início será necessário clonar o presente repositório para uso em seu VS Code.
+2. (Certifique-se de ter o Node.js instalado em sua máquina)
+3. Agora acesse a pasta "project".
+
+         > cd project
+4. Instale as dependências.
+
+         > npm i
+5. Execute o App React.
+
+         > npm run dev
+
+6. Acesse o link que a aplicação ira fornecer no seu terminal.
+Pronto! Agora pode utilizar e testar nosso projeto.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Documentação: API streaming-availability (https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability)
 
