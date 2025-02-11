@@ -21,6 +21,9 @@ Tecnologias utilizadas:
 
 COMO USAR?
 
+Voce pode acessar o link: https://project-76r4c85pn-vinicius-medinas-projects.vercel.app/
+
+Ou se preferir testar localmente:
 1. Para início será necessário clonar o presente repositório para uso em seu VS Code.
 2. (Certifique-se de ter o Node.js instalado em sua máquina)
 3. Agora acesse a pasta "project".
