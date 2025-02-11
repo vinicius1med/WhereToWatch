@@ -3,7 +3,7 @@ WHERE TO WATCH
 Este projeto contempla uma aplicação simples em react que replica, assim como no Google, a pesquisa de títulos disponíveis em determinado streaming da região (o país de pesquisa definido foi Brasil - br) como Netflix, Prime Video, Apple TV e outros.
 
 Funcionalidades: 
-  - E possível pesquisar por filmes ou series
+  - E possível pesquisar por filmes ou series
   - A aplicação ira retornar o título e se ele estiver disponível em algum streaming na região ira apresentar um botão para redirecioná-lo até o streaming
   - Após fornecer o título, a aplicação entende como comando de pesquisa a tecla "enter"
 
