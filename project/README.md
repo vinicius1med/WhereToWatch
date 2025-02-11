@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+WHERE TO WATCH
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto contempla uma aplicação simples em react que replica, assim como no Google, a pesquisa de títulos disponíveis em determinado streaming da região (o país de pesquisa definido foi Brasil - br) como Netflix, Prime Video, Apple TV e outros.
 
-Currently, two official plugins are available:
+Funcionalidades: 
+  - E possível pesquisar por filmes ou series
+  - A aplicação ira retornar o título e se ele estiver disponível em algum streaming na região ira apresentar um botão para redirecioná-lo até o streaming
+  - Após fornecer o título, a aplicação entende como comando de pesquisa a tecla "enter"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tecnologias utilizadas:
+  - React
+  - TypeScript + TSX
+  - Axios
+  - HTML + CSS
+  - Tailwind CSS
+  - RapidAPI
 
-## Expanding the ESLint configuration
+Documentação:
+ - API streaming-availability
+ https://rapidapi.com/movie-of-the-night-movie-of-the-night-default/api/streaming-availability
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Participantes do grupo de produção:
+  - Vinicius Medina
+  (Presente repositório)
 
-- Configure the top-level `parserOptions` property like this:
+  - Cayo Mercadante
+  (https://github.com/CandyDelChurros)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+  - Tayna Ellen
+  (https://github.com/taynaellen)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```

@@ -2,7 +2,7 @@ import { NavLink } from 'react-router';
 import { useLocation } from 'react-router';
 import { fetchMovies } from '../api.ts';
 import { useEffect, useState } from 'react';
-import { SearchInput } from '../Components/SearchInputs'; // Import do componente
+import { SearchInput } from '../Components/SearchInputs';
 
 interface StreamingOption {
   service: {
@@ -20,7 +20,7 @@ interface Movie {
     };
   };
   streamingOptions: {
-    br: StreamingOption[];
+    br: StreamingOption[]; 
   };
 }
 
@@ -58,7 +58,7 @@ export function Layout() {
         </div>
       </div>
 
-      <div className="flex-1 p-4 pt-24 flex flex-col items-center space-y-4">
+      <div className="flex-1 p-4 pt-24 flex flex-col items-center space-y-4 bg-slate-100">
         {movies.map((movie, index) => (
           <div
             key={index}
@@ -101,7 +101,7 @@ export function Layout() {
         ))}
       </div>
 
-      <div className="p-4 border-t text-center bg-white shadow-md">
+      <div className="p-4 border-t text-center first-letter:shadow-md bg-slate-100">
         WhereToWatch &copy; 2025
       </div>
     </div>

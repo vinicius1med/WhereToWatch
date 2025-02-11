@@ -10,6 +10,6 @@ html, body, #root {
 }
 
 #inputHome::placeholder {
-  color: blue;
+  color: #9e9d9d;
 }
 

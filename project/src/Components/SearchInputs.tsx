@@ -6,9 +6,10 @@ interface SearchInputProps {
   value: string;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
   placeholder?: string;
+  addStyleClass?: string;
 }
 
-export const SearchInput: FC<SearchInputProps> = ({ value, onChange, placeholder = 'Insert the title to search...' }) => {
+export const SearchInput: FC<SearchInputProps> = ({ value, onChange, placeholder = 'Insert the title to search...', addStyleClass }) => {
   const navigate = useNavigate();
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
@@ -22,7 +23,7 @@ export const SearchInput: FC<SearchInputProps> = ({ value, onChange, placeholder
       <Search className="absolute ml-2" />
       <input
         id="inputHome"
-        className="w-full h-10 pl-10 text-xl rounded-t-xl rounded-b-xl outline-none border"
+        className={`w-full h-10 pl-10 text-xl rounded-t-xl rounded-b-xl outline-none border ${addStyleClass}`}
         type="text"
         placeholder={placeholder}
         value={value}
