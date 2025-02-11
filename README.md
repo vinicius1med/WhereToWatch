@@ -21,7 +21,7 @@ Tecnologias utilizadas:
 
 COMO USAR?
 
-Voce pode acessar o link: https://project-76r4c85pn-vinicius-medinas-projects.vercel.app/
+Voce pode acessar o link: https://project-vinicius1med-vinicius-medinas-projects.vercel.app
 
 Ou se preferir testar localmente:
 1. Para início será necessário clonar o presente repositório para uso em seu VS Code.
